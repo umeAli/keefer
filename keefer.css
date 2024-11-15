@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+}
+.nav {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(205, 8, 8);
+    overflow: hidden;
+
+    
+}
+nav a{
+    color:white;
+    float:right;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav a:hover:not(.active) 
+{
+    background-color: grey;
+
+}
+.active{
+    background-color: grey;
+}
+.sec{
+    display: flex;
+    padding: 20px 30px;
+}
+.btn
